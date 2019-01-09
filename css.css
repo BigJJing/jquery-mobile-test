@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+body{
+  font-size:.22rem;
+  background-color: #ccc;
+}
+.footer{
+  width:calc(100% - .32rem);
+  height: 1.2rem;
+  padding: 0 .16rem .16rem;
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index: 100;
+}
+.footer-navbar{
+  width: 100%;
+  height: 1.04rem;
+  background-color: #fff;
+  border-radius: .16rem;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px rgba(0,0,0,.14), 0 1px 10px rgba(0,0,0,.12);
+
+}
+.footer-navbar a{
+  font-size:.22rem;
+  text-decoration: none;
+  color: #707070;
+  margin-left:0.4rem;
+  position: relative;
+  display: block;
+  width: auto;
+  text-align: center;
+  float:left;
+  margin-top:0.17rem;
+}
+.footer-navbar a:hover{
+  color:#707070;
+}
+.footer-navbar i{
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin:0 auto;
+}
+.footer-navbar a span{
+  line-height: 0.3rem;
+
+}
+.footer-navbar .icon-home{
+  background-image: url("img/home.svg");
+}
+.footer-navbar .icon-shopcar{
+  background-image: url("img/shopcar.svg");
+}
+.footer .right{
+  padding-right:0.3rem;
+}
+.footer .right .ui-btn{
+  border-radius:1rem;
+  font-size: 0.22rem;
+  max-width: 4rem;
+  float:right;
+  width: auto;
+  margin:0;
+  margin-top:0.17rem;
+  padding-left:0.6rem;
+  padding-right:0.6rem;
+}
